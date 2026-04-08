@@ -1,2 +1,2 @@
-def navigate(route):
-    return {"route": route, "mode": "turn-by-turn"}
+def navigate(route, night_mode=False):
+    return {"route": route, "night": night_mode}
